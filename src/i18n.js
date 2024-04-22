@@ -3,26 +3,26 @@ import { initReactI18next } from "react-i18next";
 
 import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
-const availableLanguages = ["ko", "en", "chi", "hi"];
+const availableLanguages = ["en", "ar"];
 
 
 i18n
 
-  .use(Backend)
+    .use(Backend)
 
-  .use(LanguageDetector)
+    .use(LanguageDetector)
 
-  .use(initReactI18next)
+    .use(initReactI18next)
 
-  .init({
-    fallbackLng: "en",
-    lng: "ar",
-    debug: true,
-    // whitelist: availableLanguages,
-    // detection: option,
-    // interpolation: {
-    //   escapeValue: false, // not needed for react as it escapes by default
-    // },
-  });
+    .init({
+        fallbackLng: "en",
+        lng: "ar",
+        debug: true,
+        // whitelist: availableLanguages,
+        // detection: option,
+        // interpolation: {
+        //   escapeValue: false, // not needed for react as it escapes by default
+        // },
+    });
 
 export default i18n;
