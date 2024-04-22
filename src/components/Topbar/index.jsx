@@ -44,7 +44,7 @@ export const TopBar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </Navbar.Toggle>
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mx-auto"> 
+                        <Nav className="me-auto" style={{ marginLeft: '5rem' }}>
                             <Nav.Link
                                 href="#home"
                                 className={activeLink === "home" ? "active navbar-link" : "navbar-link"}
@@ -53,11 +53,25 @@ export const TopBar = () => {
                                 {t("Home")}
                             </Nav.Link>
                             <Nav.Link
-                                href="#brands"
-                                className={activeLink === "brands" ? "active navbar-link" : "navbar-link"}
-                                onClick={() => onUpdateActiveLink("brands")}
+                                href="#features"
+                                className={activeLink === "features" ? "active navbar-link" : "navbar-link"}
+                                onClick={() => onUpdateActiveLink("features")}
                             >
-                                {t("Brands")}
+                                {t("Features")}
+                            </Nav.Link>
+                            <Nav.Link
+                                href="#pricing"
+                                className={activeLink === "pricing" ? "active navbar-link" : "navbar-link"}
+                                onClick={() => onUpdateActiveLink("pricing")}
+                            >
+                                {t("Pricing")}
+                            </Nav.Link>
+                            <Nav.Link
+                                href="#about_us"
+                                className={activeLink === "about_us" ? "active navbar-link" : "navbar-link"}
+                                onClick={() => onUpdateActiveLink("about_us")}
+                            >
+                                {t("About us")}
                             </Nav.Link>
                             <Nav.Link
                                 href="#contact"
@@ -67,10 +81,18 @@ export const TopBar = () => {
                                 {t("Contact us")}
                             </Nav.Link>
                         </Nav>
-                        <Nav className="ms-auto"> 
-                            <Button variant="outline-success" className="me-2">Sign Up</Button>
-                            <Button variant="outline-primary">Log In</Button>
+                        <Nav>
+                            <Nav.Link className="my-auto" href="#signin">
+                                <Button variant="outline-success" className="signupbutton">Sign In</Button>
+                            </Nav.Link>
+                            <Nav.Link className="my-auto" href="#signup">
+                                <Button variant="outline-primary" className="loginbutton">Sign Up</Button>
+                            </Nav.Link>
                         </Nav>
+                        {/* <Nav className="ms-auto button-list">
+                            <Button variant="outline-success" className="signupbutton">Sign In</Button>
+                            <Button variant="outline-primary" className="loginbutton">Sign Up</Button>
+                        </Nav> */}
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

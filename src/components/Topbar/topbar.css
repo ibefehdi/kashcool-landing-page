@@ -16,8 +16,22 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-  width:10%;
+  width: 10%;
 }
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Optional: if you want to change the border color as well */
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -35,10 +49,39 @@ span.navbar-text {
   align-items: center;
 }
 
-
-
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: rgba(0, 129, 201, 0.4);
   color: black !important;
+}
+.signupbutton {
+  border-radius: 26px;
+  border: 1px solid #fff;
+  font-family: "Darker Grotesque";
+  color: #fff;
+  width: 140px;
+  height: 50px;
+  font-weight: 700;
+}
+.signupbutton:hover {
+  background: transparent;
+  opacity: 90%;
+  border: 1px solid #fff;
+}
+.loginbutton {
+  border-radius: 26px;
+  background: linear-gradient(180deg, #7aaefd 0%, #4b78ed 100%);
+  border: 1px solid #fff;
+  font-family: "Darker Grotesque";
+  color: #fff;
+  width: 140px;
+  height: 50px;
+  font-weight: 700;
+}
+.loginbutton:hover {
+  opacity: 90%;
+}
+.button-list {
+  display: flex;
+  gap: 16px;
 }
