@@ -1,0 +1,17 @@
+.WhyKashcoolFlashcard {
+  width: 20.5rem;
+  height: 18.3875rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+}
+.imageflashcard {
+  width: 18rem;
+  height: 18rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+}
+.background-why-kashcool {
+  background: #002677;
+  margin-top: -2rem;
+}
