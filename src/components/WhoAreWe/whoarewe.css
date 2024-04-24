@@ -1,0 +1,25 @@
+.container-about {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+  background: #002677 ;
+}
+.top-half {
+  display: flex;
+  gap: 1rem;
+}
+.bottom-half {
+  display: flex;
+}
+.robot-img {
+  margin-top: -18rem;
+  margin-left: -6.5rem;
+}
+.bundle-cards {
+  display: flex;
+  gap: 1rem;
+}
+.container-div{
+    background: #002677;
+}
