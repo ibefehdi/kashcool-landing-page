@@ -1,0 +1,40 @@
+.top-container {
+  background: linear-gradient(180deg, hsl(216, 97%, 74%) 0%, #4b78ed 100%);
+  padding: 2.78719rem;
+  border-top-right-radius: 1.2rem;
+  border-top-left-radius: 1.2rem;
+}
+.header {
+  color: #fff;
+  text-align: center;
+
+  font-family: Quicksand;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bottom-container {
+  background: #fff;
+  display: flex;
+  padding: 2.36013rem 4.17138rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.54888rem;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-bottom-right-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+  padding-bottom: 10rem;
+}
+.details {
+  color: #161616;
+  text-align: center;
+
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.25rem;
+  width: 42.1875rem;
+}
