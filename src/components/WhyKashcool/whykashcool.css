@@ -1,0 +1,30 @@
+.kashcool-top {
+  color: #fff;
+
+  font-family: Quicksand;
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106%; /* 3.975rem */
+}
+.whykashcool-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.image-container-kashcool {
+  display: flex;
+}
+.details-for-kashcool {
+  color: #fff;
+  text-align: center;
+
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.25rem; /* 180% */
+  width: 30.25rem;
+  margin-top: 4rem;
+}

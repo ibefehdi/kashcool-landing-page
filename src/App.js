@@ -3,6 +3,7 @@ import "./App.css";
 import TopBar from "./components/Topbar";
 import Banner from "./components/Banner";
 import WhoAreWe from "./components/WhoAreWe";
+import WhyKashcool from "./components/WhyKashcool";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <TopBar />
       <Banner />
       <WhoAreWe />
+      <WhyKashcool />
     </div>
   );
 }
