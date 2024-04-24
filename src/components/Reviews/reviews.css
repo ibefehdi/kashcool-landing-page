@@ -1,0 +1,32 @@
+.reviews-header {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 3.75rem; /* Consider making this responsive or slightly smaller if necessary */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.1125rem;
+  text-transform: capitalize;
+  white-space: nowrap; /* Added to prevent wrapping */
+}
+.reviews-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%; /* Adjust if necessary */
+}
+
+.review-cards {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%; /* Adjust this value based on the number of reviews per page */
+  overflow: hidden; /* Add this line to hide the overflow */
+}
+
+.review-card-col {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.background-review {
+  background: #002677;
+}

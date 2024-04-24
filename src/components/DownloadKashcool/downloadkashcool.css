@@ -1,0 +1,59 @@
+.full-width {
+  background: linear-gradient(180deg, #7aaefd 0%, #4b78ed 100%),
+    linear-gradient(97deg, #6fd0ff -1.45%, #32abe6 97.74%);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.takekashcool {
+  color: #fff;
+
+  font-family: Quicksand;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106%;
+  width: 38.625rem;
+}
+.phone-image {
+  width: 31.625rem;
+  height: 31.1875rem;
+  flex-shrink: 0;
+}
+.downloaddetails {
+  color: #fff;
+  width: 44.0625rem;
+  text-align: left;
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+.button-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.625rem;
+}
+.downloadbtn {
+  display: flex;
+  width: 12.5625rem;
+  height: 3.125rem;
+  padding: 0.75rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  border-radius: 1.625rem;
+  border: 1px solid #fff;
+  background: #fff;
+  box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.38);
+}
+.market {
+  color: #232323;
+
+  font-family: "Darker Grotesque";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
