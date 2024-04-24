@@ -4,6 +4,8 @@ import TopBar from "./components/Topbar";
 import Banner from "./components/Banner";
 import WhoAreWe from "./components/WhoAreWe";
 import WhyKashcool from "./components/WhyKashcool";
+import DownloadKashcool from "./components/DownloadKashcool";
+import Reviews from "./components/Reviews";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Banner />
       <WhoAreWe />
       <WhyKashcool />
+      <DownloadKashcool />
+      <Reviews />
     </div>
   );
 }
